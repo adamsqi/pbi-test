@@ -1,5 +1,6 @@
 # only keep *.pbit samples
 samples/*
 !samples/*.pbit
+1805*
 *.pbit
 __pycache__
