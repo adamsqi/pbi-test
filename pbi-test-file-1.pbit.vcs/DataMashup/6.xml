@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LocalPackageMetadataFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Items>
+    <Item>
+      <ItemLocation>
+        <ItemType>AllFormulas</ItemType>
+        <ItemPath/>
+      </ItemLocation>
+      <StableEntries>
+        <Entry Type="RunBackgroundAnalysis" Value="sFalse"/>
+      </StableEntries>
+    </Item>
+    <Item>
+      <ItemLocation>
+        <ItemType>Formula</ItemType>
+        <ItemPath>Section1/Table1</ItemPath>
+      </ItemLocation>
+      <StableEntries>
+        <Entry Type="IsPrivate" Value="l0"/>
+        <Entry Type="NameUpdatedAfterFill" Value="l1"/>
+        <Entry Type="IsDirectQuery" Value="l0"/>
+        <Entry Type="FillColumnNames" Value="s[&quot;Column1&quot;]"/>
+        <Entry Type="RelationshipInfoContainer" Value="s{&quot;columnCount&quot;:1,&quot;keyColumnNames&quot;:[],&quot;queryRelationships&quot;:[],&quot;columnIdentities&quot;:[&quot;Section1/Table1/Changed Type.{Column1,0}&quot;],&quot;ColumnCount&quot;:1,&quot;KeyColumnNames&quot;:[],&quot;ColumnIdentities&quot;:[&quot;Section1/Table1/Changed Type.{Column1,0}&quot;],&quot;RelationshipInfo&quot;:[]}"/>
+        <Entry Type="LastAnalysisServicesFormulaText" Value="s{&quot;IncludesReferencedQueries&quot;:true,&quot;RootFormulaText&quot;:&quot;let\r\n    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\&quot;i45WMlSKjQUA\&quot;, BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type text) meta [Serialized.Text = true]) in type table [Column1 = _t]),\r\n    #\&quot;Changed Type\&quot; = Table.TransformColumnTypes(Source,{{\&quot;Column1\&quot;, Int64.Type}})\r\nin\r\n    #\&quot;Changed Type\&quot;&quot;,&quot;ReferencedQueriesFormulaText&quot;:{}}"/>
+        <Entry Type="IsLastAnalysisServicesFormulaTextCollection" Value="l1"/>
+        <Entry Type="LoadedToAnalysisServices" Value="l1"/>
+        <Entry Type="BufferNextRefresh" Value="l0"/>
+        <Entry Type="ResultType" Value="sTable"/>
+      </StableEntries>
+    </Item>
+    <Item>
+      <ItemLocation>
+        <ItemType>Formula</ItemType>
+        <ItemPath>Section1/Table1/Source</ItemPath>
+      </ItemLocation>
+      <StableEntries/>
+    </Item>
+    <Item>
+      <ItemLocation>
+        <ItemType>Formula</ItemType>
+        <ItemPath>Section1/Table1/Changed%20Type</ItemPath>
+      </ItemLocation>
+      <StableEntries/>
+    </Item>
+  </Items>
+</LocalPackageMetadataFile>
